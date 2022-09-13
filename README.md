@@ -16,7 +16,7 @@ The button "only open now" helps you to find the places which are open at the ti
 <img width="200" alt="searching" src="https://user-images.githubusercontent.com/61837814/190010985-1194cb2e-d4e6-42c6-855c-f0f37458adb6.png"><img width="200" alt="list" src="https://user-images.githubusercontent.com/61837814/190010877-e0280614-4cb4-442c-9604-eae6a0b86774.png">
 
 
-Once you tap the pictures of the list, you will see the information of the place. If you want to get more information such as reviews, directions etc, you can tap "Open with Google Maps" and get more information.
+Once you tap the pictures of the list, you will see the information of the place. You can directly call or visiting website from the list, but if you want to get more details such as reviews, cost range or directions etc, you can tap "Open with Google Maps" and get more information.
 
 <img width="200" alt="detail01" src="https://user-images.githubusercontent.com/61837814/190010924-2f23fa4d-a0f1-4e10-9040-f392f000389b.png"><img width="200" alt="detail02" src="https://user-images.githubusercontent.com/61837814/190010956-8fc8c3e5-6ff9-4f36-b812-2cc2143143fe.png">
 
