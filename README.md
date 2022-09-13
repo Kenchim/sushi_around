@@ -1,7 +1,7 @@
 # Mobile app "Sushi Around" developed with Flutter
 
 This app shows you sushi places around your location.
-Google maps gives you tons of options and information, but sometimes they confuses you.
+Google maps gives you tons of options and information, but sometimes they confuse you.
 With this app, you directly find places where you can eat sushi. 
 All places on this app are within 1km from you, so it is not too hard to reach.
 
