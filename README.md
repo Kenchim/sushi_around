@@ -5,7 +5,7 @@ Google maps gives you tons of options, but sometimes it confuses you.
 With this app, you can directly find places where you can eat sushi.
 All places on this app are within 1km from you, so it is not too hard to reach.
 
-Sushi is around you. Let's open this app and get it.
+Sushi is around you. Let's head to sushi.
 
 
 ## How to use
