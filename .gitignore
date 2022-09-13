@@ -1,4 +1,5 @@
 config.dart
+AndroidManifest.xml
 
 # Miscellaneous
 *.class
