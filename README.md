@@ -1,5 +1,5 @@
 # Sushi Around Mobile App
-Mobile app "Sushi Around" dev with Flutter
+Mobile app "Sushi Around" developed with Flutter
 
 When you open this app, it automatically start to search sushi shops around you and show up to 20 places from google API.
 
