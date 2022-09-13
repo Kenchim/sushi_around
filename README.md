@@ -2,7 +2,9 @@
 
 This app shows you sushi places around your location.
 
-Google maps gives you tons of options and information, but sometimes they confuse you. Even this app is based on Google maps, but a lot of choices and details are reduced by this app settings, which leads you sushi place close to you. 
+Google maps gives you tons of options and information, but sometimes they confuse you. Even this app is based on Google maps, but a lot of choices and details are reduced by this app settings, which guides you sushi place close to you. 
+
+Sushi was originally food stands on the street, so not the destination of travels like nowadays. There are many ways to enjoy sushi of course, but through this app, you would enjoy the places rooted in daily life or chance encounters while traveling.
 
 Sushi is around you. Let's open app and find yours.
 
