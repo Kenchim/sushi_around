@@ -28,3 +28,4 @@ Two APIs are used in this app.
 - First, "Nearby Search" to get up to 20 placeIds (which is limited by google) with keyword of "sushi" and within roughly 500m radius from current position.
 - Then secondly based on the placeIds, "Place Details" API are called.
 
+
