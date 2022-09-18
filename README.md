@@ -22,7 +22,7 @@ Once you tap the pictures of the list, you will see the information of the place
 <img width="200" alt="detail01" src="https://user-images.githubusercontent.com/61837814/190010924-2f23fa4d-a0f1-4e10-9040-f392f000389b.png"><img width="200" alt="detail02" src="https://user-images.githubusercontent.com/61837814/190010956-8fc8c3e5-6ff9-4f36-b812-2cc2143143fe.png">
 
 
-##API
+## API
 
 Two APIs are used in this app.
 - First, "Nearby Search" to get up to 20 placeIds (which is limited by google) with keyword of "sushi" and within roughly 500m radius from current position.
