@@ -103,14 +103,14 @@ class _ItemDetailState extends State<ItemDetail> {
                         borderRadius: BorderRadius.all(Radius.circular(5)),
                         color:Color(0xffFF7368),
                       ),
-                        padding: EdgeInsets.all(3),
+                        padding: EdgeInsets.symmetric(horizontal:8, vertical: 3),
                         child: Text("open now !", style: TextStyle(color:Colors.white),))
                       : Container(
                         decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(5)),
                         color:Color(0xff999999),
                       ),
-                        padding: EdgeInsets.all(3),
+                        padding: EdgeInsets.symmetric(horizontal:8, vertical: 3),
                         child: Text("closed now", style: TextStyle(color:Colors.white),)),
                     ),
                   SizedBox(height: 8),
@@ -118,7 +118,7 @@ class _ItemDetailState extends State<ItemDetail> {
                     elevation: 0,
                     shape: RoundedRectangleBorder(
                       side: BorderSide(
-                        color: Color(0xff3333333),
+                        color: Color(0xffD6D6D6),
                       ),
                       borderRadius: BorderRadius.circular(6)
                     ),
