@@ -25,6 +25,6 @@ Once you tap the pictures of the list, you will see the information of the place
 ## API
 
 Two APIs are used in this app.
-- First, "Nearby Search" to get up to 20 placeIds (which is limited by google) with keyword of "sushi" and within roughly 500m radius from current position.
+- First, "Nearby Search" to get up to 10 placeIds (which is limited by google) with keyword of "sushi" and within roughly 500m radius from current position.
 - Then secondly based on the placeIds, "Place Details" API are called.
 
