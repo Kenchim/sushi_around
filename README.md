@@ -1,5 +1,8 @@
 # Mobile app "Sushi Around" developed with Flutter
 
+![featured_01](https://user-images.githubusercontent.com/61837814/191573218-df9dfe91-5082-43bd-b6ec-666c982b0ccb.png)
+
+
 This app shows you sushi places around your location.
 
 Google maps gives you tons of options and information, but sometimes they confuse you. Even this app is based on Google maps, but a lot of choices and details are reduced by this app settings, which guides you sushi place close to you. 
@@ -14,12 +17,13 @@ Sushi is around you. Let's open app and find yours.
 When you open this app, it automatically starts to search sushi shops around you and shows up to 20 places from google API.
 The button "only open now" helps you to find the places which are open at the time. (Closed places are disappered from the list.)
 
-<img width="200" alt="searching" src="https://user-images.githubusercontent.com/61837814/190010985-1194cb2e-d4e6-42c6-855c-f0f37458adb6.png"><img width="200" alt="list" src="https://user-images.githubusercontent.com/61837814/190010877-e0280614-4cb4-442c-9604-eae6a0b86774.png">
 
+![concept_02](https://user-images.githubusercontent.com/61837814/191573279-7b1e4c3c-2cb2-4f06-98b1-9ae2f3d12eed.png)
 
 Once you tap the pictures of the list, you will see the information of the place. You can directly call or visiting website from the list, but if you want to get more details such as reviews, cost range or directions etc, you can tap "Open with Google Maps" and get more information.
 
-<img width="200" alt="detail01" src="https://user-images.githubusercontent.com/61837814/190010924-2f23fa4d-a0f1-4e10-9040-f392f000389b.png"><img width="200" alt="detail02" src="https://user-images.githubusercontent.com/61837814/190010956-8fc8c3e5-6ff9-4f36-b812-2cc2143143fe.png">
+![concept_03](https://user-images.githubusercontent.com/61837814/191573342-44ac25fa-c694-43e4-be30-b1c5a9e692ea.png)
+
 
 
 ## API
