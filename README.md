@@ -18,12 +18,12 @@ When you open this app, it automatically starts to search sushi shops around you
 The button "only open now" helps you to find the places which are open at the time. (Closed places are disappered from the list.)
 
 
-![concept_02](https://user-images.githubusercontent.com/61837814/191573279-7b1e4c3c-2cb2-4f06-98b1-9ae2f3d12eed.png)
+![concept](https://user-images.githubusercontent.com/61837814/191573626-49ec1af6-122b-4b3b-b706-b9aa897e6073.png)
+
 
 Once you tap the pictures of the list, you will see the information of the place. You can directly call or visiting website from the list, but if you want to get more details such as reviews, cost range or directions etc, you can tap "Open with Google Maps" and get more information.
 
-![concept_03](https://user-images.githubusercontent.com/61837814/191573342-44ac25fa-c694-43e4-be30-b1c5a9e692ea.png)
-
+![concept0](https://user-images.githubusercontent.com/61837814/191573717-2b5db482-0c9c-4e35-93af-62ea5ed4d333.png)
 
 
 ## API
