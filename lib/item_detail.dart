@@ -219,11 +219,6 @@ class _ItemDetailState extends State<ItemDetail> {
                         child: const Text("open with Google Maps",style: TextStyle(color: Color(0xfff0f0f0)),)),
                     ),
                   ),
-                  // ListView.builder(
-                  //   itemCount: 3,
-                  //   itemBuilder: (context, index){
-                  //   return Image(image: AssetImage("images/logo_sushitech.png"),height: 70,);
-                  // })
                 ],
               ),
             ),
@@ -247,12 +242,6 @@ class _ItemDetailState extends State<ItemDetail> {
                       );
                             }))),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(bottom: 16.0),
-                  //   child: ClipRRect(
-                  //     borderRadius: BorderRadius.circular(8),
-                  //     child: Image(image: AssetImage("images/sushi.png"),width: MediaQuery.of(context).size.width,fit: BoxFit.cover,)),
-                  // ),
                 ],
               ),
             ),

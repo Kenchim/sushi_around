@@ -38,7 +38,7 @@ class _ItemListState extends State<ItemList> {
     final panelHightOpened = MediaQuery.of(context).size.height * 0.8;
     final PanelController panelController =  PanelController();
     return Scaffold(
-      // sliding up panle wraps an original body
+      // sliding up panel wraps an original body
       body: SlidingUpPanel(
         controller: panelController,
         minHeight: panelHightClosed,
@@ -213,7 +213,6 @@ class _PanelWidgetState extends State<PanelWidget> {
   Future<List<getGooglemapsItemInfo>> getShopInfo(LatLng currentPositionPosition) async {
     List<getGooglemapsItemInfo> _shopInfoList = [];
     List placeId = await getGooglemapsPlaceId.placeIdFromCurrentPosition(currentPositionPosition.latitude, currentPositionPosition.longitude);
-      print("${placeId}ぷrーすりすと");
       for(var i = 0; i < placeId.length; i++){
         final getGooglemapsItemInfo _shopInfo = await getGooglemapsItemInfo.placeInfoFromPlaceId(placeId[i]);
         _shopInfoList.add(_shopInfo);

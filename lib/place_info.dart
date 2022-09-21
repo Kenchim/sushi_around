@@ -48,7 +48,6 @@ class getGooglemapsItemInfo{
 
     } catch(e) {
       print(e);
-      print("えらーだ");
       return null!;
     }
   }
