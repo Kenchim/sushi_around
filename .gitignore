@@ -1,6 +1,6 @@
 config.dart
 AndroidManifest.xml
-key.jks
+upload-keystore.jks
 key.properties
 
 # Miscellaneous
