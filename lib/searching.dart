@@ -40,6 +40,7 @@ class SearchingState extends State<Searching> {
   @override
   void initState(){
     super.initState();
+    _markers = Set.from([]);
   }
 
   @override

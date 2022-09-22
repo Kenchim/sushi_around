@@ -1,5 +1,7 @@
 config.dart
 AndroidManifest.xml
+key.jks
+key.properties
 
 # Miscellaneous
 *.class

@@ -17,6 +17,14 @@ allprojects {
         mavenCentral()
     }
 }
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
+
 
 rootProject.buildDir = '../build'
 subprojects {
