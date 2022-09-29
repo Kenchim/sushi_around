@@ -2,11 +2,24 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:sushi_around/searching.dart';
-
+bool warningVisible = true;
+checkPermission() async {
+  LocationPermission initPermission = await Geolocator.checkPermission();
+  if(initPermission == LocationPermission.always || initPermission == LocationPermission.whileInUse){
+    print("はろー");
+    warningVisible = false;
+    print(warningVisible);
+  } else{
+   print("はろーdaaaaaa");
+    warningVisible = true;
+  }
+  return warningVisible;
+}
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
+  MyHomePage({Key? key}) : super(key: key);
+  bool warningVisible = false;
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -15,9 +28,10 @@ class _MyHomePageState extends State<MyHomePage> {
   
   @override
   void initState(){
+    checkPermission();
     Timer(const Duration(seconds: 3), (){
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
-        return Searching();
+        return Searching(warningVisible);
       }));
     });
   }

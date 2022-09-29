@@ -46,6 +46,8 @@ dependencies:
   provider: ^6.0.3
   async: ^2.8.2
   flutter_launcher_icons: ^0.10.0
+  permission_handler: ^10.0.2
+  app_settings: ^4.1.8
 
 dev_dependencies:
   flutter_test:
@@ -86,6 +88,7 @@ flutter:
     - images/logo_foreground.png
     - images/logo_background.png
     - images/connection_error.png
+    - images/logo_pd.png
 
 
 

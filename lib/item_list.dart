@@ -7,6 +7,7 @@ import 'package:google_maps_flutter_platform_interface/src/types/location.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:sushi_around/config.dart';
 import 'package:sushi_around/item_detail.dart';
+import 'home.dart';
 import 'searching.dart';
 import 'place_id.dart';
 import 'place_info.dart';
@@ -174,7 +175,7 @@ redIconFile() {
             elevation: 5,
             onPressed: (){
               //Navigator.pop(context);
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>Searching()));
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>Searching(warningVisible)));
             }, 
             child: const Icon(Icons.refresh, color: Color(0xff333333),),
             ),

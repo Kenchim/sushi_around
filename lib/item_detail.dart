@@ -212,7 +212,8 @@ class _ItemDetailState extends State<ItemDetail> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30)
                           ),
-                          primary: Color(0xff2A92F2),
+                          backgroundColor: Color(0xff2A92F2),
+                          foregroundColor: Colors.white,
                           elevation: 3
                         ),
                         onPressed: (){MapUtils.openMap(shopInfoList.placeId);}, 
