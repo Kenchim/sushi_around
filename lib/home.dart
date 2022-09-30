@@ -8,11 +8,9 @@ bool warningVisible = true;
 checkPermission() async {
   LocationPermission initPermission = await Geolocator.checkPermission();
   if(initPermission == LocationPermission.always || initPermission == LocationPermission.whileInUse){
-    print("はろー");
     warningVisible = false;
     print(warningVisible);
   } else{
-   print("はろーdaaaaaa");
     warningVisible = true;
   }
   return warningVisible;

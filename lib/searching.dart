@@ -51,12 +51,10 @@ class SearchingState extends State<Searching> {
       permission = await Geolocator.requestPermission();
       setState(() {
         settingsPopup = false;
-        print("${permission}はろー１");
       });
       if(permission == LocationPermission.denied){
       setState(() {
         settingsPopup = true;
-        print("はろー2");
       });
       return Future.error("Cannot get your current location");
     }
@@ -64,11 +62,10 @@ class SearchingState extends State<Searching> {
   if (permission == LocationPermission.deniedForever) {
     setState(() {
         settingsPopup = true;
-        print("はろー3");
       });
     return Future.error(
       'Location permissions are permanently denied, we cannot request permissions.');
-  } print("はろー4");
+  } 
   startSearchingmsg = true;
   final Position _currentPosition = await Geolocator.getCurrentPosition();
   currentPosition = CameraPosition(target: LatLng(_currentPosition.latitude, _currentPosition.longitude), zoom: 15);
