@@ -254,8 +254,9 @@ class _PanelWidgetState extends State<PanelWidget> {
 
   @override
   Widget build(BuildContext context){ 
-    return Expanded(
-      child: Container(
+    return Stack(
+      fit: StackFit.expand,
+      children: [Container(
         child: Column(
           children: [
             const SizedBox(height: 12,),
@@ -294,7 +295,7 @@ class _PanelWidgetState extends State<PanelWidget> {
               return childWidget;
             }),]
         ),
-      ),
+      )],
     );
   }  
   }
